@@ -420,7 +420,7 @@ client.on('message', message => {
 
 
 var adminprefix = '$'
-const developers = ["513052517538725888"]
+const developers = ["368741794848178176"]
 
 
 
