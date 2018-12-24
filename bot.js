@@ -8,7 +8,7 @@ const moment = require("moment");
 
 const devs = ["368741794848178176"]
 
-const adminprefix = "*";
+const adminprefix = "!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
@@ -41,7 +41,7 @@ client.on('message', message => {
 
   });
 
-   var prefix = "*"
+   var prefix = "!"
 client.on('message', message => {
   if (message.author.x5bz) return;
   if (!message.content.startsWith(prefix)) return;
