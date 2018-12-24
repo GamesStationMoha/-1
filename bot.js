@@ -469,8 +469,8 @@ client.on('message', async message => {
        }
         if(message.content.startsWith(prefix + 'temp on')){
          if(!message.member.hasPermission(`MANAGE_GUILD`)) return;
-          var ggg= message.guild.createChannel('click here', 'category').then(cg => {
-           var ccc =message.guild.createChannel('click here', 'voice').then(ch => {
+          var ggg= message.guild.createChannel('Temporary Rooms', 'category').then(cg => {
+           var ccc =message.guild.createChannel('انشاء روم مؤقت', 'voice').then(ch => {
             ch.setParent(cg)
              message.channel.send('**Done || Temporary Rooms Has Been Activated . :ballot_box_with_check: **')
               client.on('message' , message => {
