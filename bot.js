@@ -470,23 +470,23 @@ client.on('guildCreate', guild => {
               if (message.content.startsWith(prefix + "help")) {
 message.author.send(`**اوامر البوت :
 
-{$prefix}bc : برودكاست للاونلايت
-{$prefix}obc : برودكاست للجميع
-{$prefix}move : سحب عضو من روم
-{$prefix}role : اعطاء رتبة لشخص معين
-{$prefix}closeroom : اغلاق الروم الكتابي
-{$prefix}openeoom : فتح الروم الكتابي
-{$prefix}kick : طرد عضو معين
-{$prefix}ban : تبنيد عضو معين 
-{$prefix}clear : مسح الشات 
-{$prefix}roles : رتب السيرفر
-{$prefix}server : معلومات السيرفر 
-{$prefix}image : عرض صورة شخص ما
-{$prefix}move all : سحب جميع الاعضاء الى رومك
-{$prefix}ping : بنق البوت
+${prefix}bc : برودكاست للاونلايت
+${prefix}obc : برودكاست للجميع
+${prefix}move : سحب عضو من روم
+${prefix}role : اعطاء رتبة لشخص معين
+${prefix}closeroom : اغلاق الروم الكتابي
+${prefix}openeoom : فتح الروم الكتابي
+${prefix}kick : طرد عضو معين
+${prefix}ban : تبنيد عضو معين 
+${prefix}clear : مسح الشات 
+${prefix}roles : رتب السيرفر
+${prefix}server : معلومات السيرفر 
+${prefix}image : عرض صورة شخص ما
+${prefix}move all : سحب جميع الاعضاء الى رومك
+${prefix}ping : بنق البوت
 -----------------------------------------
-{$prefix}inv : دعوة البوت لسيرفرك 
-{$prefix}bot : معلومات البوت 
+${prefix}inv : دعوة البوت لسيرفرك 
+${prefix}bot : معلومات البوت 
 سيرفر الدعم : https://discord.gg/asXKGw **`)
 			  }
 			  
