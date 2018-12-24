@@ -487,7 +487,7 @@ ${prefix}ping : بنق البوت
 -----------------------------------------
 ${prefix}inv : دعوة البوت لسيرفرك 
 ${prefix}bot : معلومات البوت 
-سيرفر الدعم : https://discord.gg/asXKGw **`)
+سيرفر الدعم : https://discord.gg/YyGf47X **`)
 			  }
 			  
 			  });
